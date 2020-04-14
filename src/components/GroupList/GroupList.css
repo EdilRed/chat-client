@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    
+  }
+  
+  ul li {
+    border: 1px solid #ddd;
+    margin: auto;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+  }
+
+  .loading{
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .group{
+    display: flex;
+  }
+
+  .group button{
+    display: flex;
+    flex-grow: 0;
+    margin: 10px 0px;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    cursor:pointer;
+  }
+
+  .join {
+    background-color: green;
+  }
+
+  .leave {
+    background-color: red;
+  }
+
+  .group p{
+    display: flex;
+    flex-grow: 1;
+    cursor:pointer;
+  }
